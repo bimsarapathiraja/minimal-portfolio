@@ -1,5 +1,52 @@
 # Portfolio
 ---
+## Work Experience
+
+### Machine Learning Engineer (Part-time remote) - <a href='https://www.promiseq.com/'>promiseQ</a>
+
+promiseQ uses advanced real-time video analysis, object detection and tracking to reduce the cost and time wasted associated to false alarms.
+
+**My contributions** 
+* Planning next training iterations
+* Integrating the system with <a href='https://neptune.ai/' > Neptune.ai </a>
+* Improving object tracking module
+* Filtering false positives using rule based techniques
+* Image augmentation to reduce class imbalance 
+
+---
+
+## [Self-Driving-Car-Stage-II] Multi-Sensor based Dynamic Object Detection, Tracking, and Trajectory Prediction
+
+The final year project of the degree program and our project is based on dynamic object detection, tracking, trajectory prediction, signal light identification and data collection using LiDAR and camera. 
+- Detection and tracking - <a href='https://arxiv.org/abs/2006.11275'> Centerpoint </a> 
+  - detection MAP **80.2%**
+  - detection FPS **16**
+  - tracking  AMOTA **0.65**
+
+- Signal light identification - Simple CNN-LSTM model
+- Trajectory prediction - based on <a href='https://drive.google.com/file/d/1Ksq7X5dzouMV2jG1QYcgWzpUl2dKWUDW/view'> ReCoAt (CVPR2021 Workshop on Autonomous Driving) </a>
+<center><img src="images/fyp3.png"/></center>
+
+### Trajectory Prediction
+
+Paper submitted to <a href='https://www.ieee-itsc2022.org/'> IEEE-ITSC </a> - **Class-Aware Attention for Multimodal Trajectory Prediction**
+
+[![Run in Google Drive](https://img.shields.io/badge/Drive-View%20in%20Google%20Drive-blue?logo=googledrive&logoColor=#4285F4)](https://drive.google.com/file/d/1fg3wfGAm5fC2huAs-Va7XjCXAunanhGb/view?usp=sharing)
+
+**Abstract**
+
+Abstract—Predicting the possible future trajectories of the surrounding dynamic agents is an essential requirement in autonomous driving. These trajectories mainly depend on the surrounding static environment, as well as the past movements of those dynamic agents. Furthermore, the multimodal nature of agent intentions makes the trajectory prediction problem more challenging. All of the existing models consider the target agent as well as the surrounding agents similarly, without considering the variation of physical properties. In this paper, we present a novel deep-learning based framework for multimodal trajectory prediction in autonomous driving, which considers the physical properties of the target and surrounding vehicles such as the object class and their physical dimensions through a weighted attention module, that improves the accuracy of the predictions. Our model has achieved the highest results in the nuScenes trajectory prediction benchmark, out of the models which use rasterized maps to input environment information. Furthermore, our model is able to run in real-time, achieving a high inference rate of over 300 FPS.
+
+**Sample Results**
+<center><img src="images/paper-viz.png"/></center>
+
+**Quantitative results for nuScenes dataset**
+
+$MinADE_5$ - 1.67m
+$MinFDE_1$ - 8.43m
+
+
+---
 ## Natural Language Processing
 
 ### CS224n: Natural Language Processing with Deep Learning
