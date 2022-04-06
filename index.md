@@ -27,15 +27,22 @@ The final year project of the degree program and our project is based on dynamic
 - Trajectory prediction - based on <a href='https://drive.google.com/file/d/1Ksq7X5dzouMV2jG1QYcgWzpUl2dKWUDW/view'> ReCoAt (CVPR2021 Workshop on Autonomous Driving) </a>
 <center><img src="images/fyp3.png"/></center>
 
+### 3D object Detection and Tracking
+
+<center><img src="images/centerpoint.png"/></center>
 ### Trajectory Prediction
 
 Paper submitted to <a href='https://www.ieee-itsc2022.org/'> IEEE-ITSC </a> - **Class-Aware Attention for Multimodal Trajectory Prediction**
 
-[![Run in Google Drive](https://img.shields.io/badge/Drive-View%20in%20Google%20Drive-blue?logo=googledrive&logoColor=#4285F4)](https://drive.google.com/file/d/1fg3wfGAm5fC2huAs-Va7XjCXAunanhGb/view?usp=sharing)
+<!-- [![Run in Google Drive](https://img.shields.io/badge/Drive-View%20in%20Google%20Drive-blue?logo=googledrive&logoColor=#4285F4)](https://drive.google.com/file/d/1fg3wfGAm5fC2huAs-Va7XjCXAunanhGb/view?usp=sharing) -->
+
+[![Open Research Poster](https://img.shields.io/badge/PDF-Open%20Research%20Paper-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IEEE_ITSC.pdf)
+
 
 **Abstract**
 
-Abstract—Predicting the possible future trajectories of the surrounding dynamic agents is an essential requirement in autonomous driving. These trajectories mainly depend on the surrounding static environment, as well as the past movements of those dynamic agents. Furthermore, the multimodal nature of agent intentions makes the trajectory prediction problem more challenging. All of the existing models consider the target agent as well as the surrounding agents similarly, without considering the variation of physical properties. In this paper, we present a novel deep-learning based framework for multimodal trajectory prediction in autonomous driving, which considers the physical properties of the target and surrounding vehicles such as the object class and their physical dimensions through a weighted attention module, that improves the accuracy of the predictions. Our model has achieved the highest results in the nuScenes trajectory prediction benchmark, out of the models which use rasterized maps to input environment information. Furthermore, our model is able to run in real-time, achieving a high inference rate of over 300 FPS.
+<div style="text-align: justify"> Abstract—Predicting the possible future trajectories of the surrounding dynamic agents is an essential requirement in autonomous driving. These trajectories mainly depend on the surrounding static environment, as well as the past movements of those dynamic agents. Furthermore, the multimodal nature of agent intentions makes the trajectory prediction problem more challenging. All of the existing models consider the target agent as well as the surrounding agents similarly, without considering the variation of physical properties. In this paper, we present a novel deep-learning based framework for multimodal trajectory prediction in autonomous driving, which considers the physical properties of the target and surrounding vehicles such as the object class and their physical dimensions through a weighted attention module, that improves the accuracy of the predictions. Our model has achieved the highest results in the nuScenes trajectory prediction benchmark, out of the models which use rasterized maps to input environment information. Furthermore, our model is able to run in real-time, achieving a high inference rate of over 300 FPS. </div>
+<br>
 
 **Sample Results**
 <center><img src="images/paper-viz.png"/></center>
@@ -45,6 +52,28 @@ Abstract—Predicting the possible future trajectories of the surrounding dynami
 $MinADE_5$ - 1.67m
 $MinFDE_1$ - 8.43m
 
+---
+
+## Computer Vision
+
+### CS231n: Convolutional Neural Networks for Visual Recognition
+
+My complete implementation of assignments and projects in [***CS231n: Convolutional Neural Networks for Visual Recognition***](http://cs231n.stanford.edu/2021/) by Stanford (Spring, 2021).
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/)
+
+**Implementing CNN image classification module using Numpy:** 
+An image classification model implementing with fully connected networks, non linear activations, batch normalization, dropout and convolutional networks including back propagation ([GitHub](https://github.com/)).
+
+**Image Captioning:** An image captioning model with vanilla RNNs, LSTM and Transformer network. RNN and LSTM were implemented from scratch using  numpy including backpropagation. Attention, Multi-head attention and Transformer were implemented using Pytorch ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
+
+<center><img src="images/cs231n.png"/></center>
+
+**GAN:** Implementing Vanilla GAN, Least Square GAN and Deep Convolutional GAN (DCGAN). 
+
+**Network Visualization:** Visualizing a pretrained model using saliency maps, fooling images and class visualization.
+
+<center><img src="images/saliency2.png"/></center>
 
 ---
 ## Natural Language Processing
@@ -53,33 +82,60 @@ $MinFDE_1$ - 8.43m
 
 My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/)
 
-**Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)).
+**Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/)).
 
-**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
+**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com)).
 
 <center><img src="images/nlp.png"/></center>
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
+## Internship Projects
 
-<div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
+Company: [Creative Software](https://www.creativesoftware.com/)
+### Corrosion Detection using Semantic Segmentation
 
-<center><img src="images/BERT-classification.png"/></center>
+Corrosion Detection for industrial environment using semantic segmentation. I used U-Net model for semantic segmentation. I completed writing the model, testing and all the training. Using a combination of focal loss and dice loss increased the accuracy significantly and using lot of augmentations reduced false positives.
+
+<center><img src="images/unet.png"/></center>
+
+Synthetic data generation is also done using Unity 3D since the real image dataset was not enough.
+
+<center><img src="images/synthe.png"/></center>
+
+
+### Object Detection in Industrial Environment
+
+Object detection model was trained using Detectron2 for idenitifying industrial objects like gauges, motors, valves, pumps etc. 
+
+<center><img src="images/maskrcnn.png"/></center>
 
 ---
-### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
+### Garment ReConstruction - NeurIPS Challenge
 
-<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
-<br>
-<center><img src="images/fb-food-trends.png"></center>
-<br>
+3D Texture garment reconstruction using CLOTH3D dataset and SMPL body parameters. PyMesh, Open3d, Meshlab, MeshlabXML, Pytorch Geometric libraires were used.
+
+Only the data preprocessing part is done. The model is yet to be implemented.
+
+**Subsampling points**
+<center><img src="images/subsampling.png"/></center>
+
+**Non-rigid Iterative Closest Point (ICP)**
+<center><img src="images/nicp.png"/></center>
+
+**Custom maxpooling**
+<center><img src="images/maxpool.png"/></center>
+
+### Deep Surveilance System (DSS) - SLIOT Challenges
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/)
+
+<div style="text-align: justify"> Deep Surveillance System, an IoT device which is triggered by threatening sounds to activate the camera. The product included hardware, sensors, ML model, web based UI as well. Urban 8K sound dataset and TensorFlow were used for model training. Implemented using Raspberry Pi, OpenCV and Azure. I involved in model wrting, training and hardware implementation.
+
+DSS won 2nd place in the open category of Sri Lanka IoT competition (SLIOT). </div>
 
 ---
 ### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
