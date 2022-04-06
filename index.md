@@ -7,11 +7,11 @@
 promiseQ uses advanced real-time video analysis, object detection and tracking to reduce the cost and time wasted associated to false alarms.
 
 **My contributions** 
-* Planning next training iterations
-* Integrating the system with <a href='https://neptune.ai/' > Neptune.ai </a>
-* Improving object tracking module
-* Filtering false positives using rule based techniques
-* Image augmentation to reduce class imbalance 
+- **Planning next training iterations** - Worked on reducing class imbalance, cleaning the data, visualizing the dataloader, changing augmentations to improve the object detection accuracy.
+- **Integrating the system with <a href='https://neptune.ai/' > Neptune.ai </a>** - Neptune.ai provides the facility to track our experiments and log all the results needed. I integrated the whole model, training procedure into Neptune.ai, so that the hyperparameters, configurations and results would not lost.
+- **Improving object tracking module** - Completed a study on mulit-object real-time tracking method and working on improving the tracking accuracy.
+- **Filtering false positives using rule based techniques** - To minimize the false positives of the product, I am working on a rule based method which will be implemented on top of the object detection module.  
+- **Reducing class imbalance** - I am using image augmentation and synthetic data generation to reduce the class imbalance.
 
 ---
 
