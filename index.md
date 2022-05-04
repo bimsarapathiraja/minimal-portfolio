@@ -142,7 +142,7 @@ Only the data preprocessing part is done. The model is yet to be implemented. </
 
 <div style="text-align: justify"> The project included designing an Instruction Set Architecture (ISA) for FPGA processor for Matrix Multiplication and implementing with all the necessory components using Verilog HDL. A Python simulator was written to test the performance of the processor. We used Intel Quartus Prime, ModelSim and Xillinx to implement and simulate the processor. 
 
-</div>
+</div> <br>
 
 
 ### Deep Surveilance System (DSS) - SLIOT Challenges
