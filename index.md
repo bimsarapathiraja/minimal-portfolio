@@ -19,13 +19,13 @@ promiseQ uses advanced real-time video analysis, object detection and tracking t
 
 The final year project of the degree program and our project is based on dynamic object detection, tracking, trajectory prediction, signal light identification and data collection using LiDAR and camera. 
 - Detection and tracking - <a href='https://arxiv.org/abs/2006.11275'> Centerpoint </a> 
-  - detection MAP **80.2%**
-  - detection FPS **16**
-  - tracking  AMOTA **0.65**
+  - detection MAP **62.8** (In the sensor fusion method: MVP + Centerpoint)
+  - detection FPS **20** (In the fastest method: Centerpoint: Pointpillars )
+  - tracking  AMOTA **63.8**
 
 - Signal light identification - Simple CNN-LSTM model
 - Trajectory prediction - based on <a href='https://drive.google.com/file/d/1Ksq7X5dzouMV2jG1QYcgWzpUl2dKWUDW/view'> ReCoAt (CVPR2021 Workshop on Autonomous Driving) </a>
-<center><img src="images/fyp3.png"/></center>
+<center><img src="images/pipeline.png"/></center>
 
 ### 3D object Detection and Tracking
 
@@ -62,10 +62,12 @@ My complete implementation of assignments and projects in [***CS231n: Convolutio
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/)
 
+<div style="text-align: justify">
+
 **Implementing CNN image classification module using Numpy:** 
 An image classification model implementing with fully connected networks, non linear activations, batch normalization, dropout and convolutional networks including back propagation ([GitHub](https://github.com/)).
 
-**Image Captioning:** An image captioning model with vanilla RNNs, LSTM and Transformer network. RNN and LSTM were implemented from scratch using  numpy including backpropagation. Attention, Multi-head attention and Transformer were implemented using Pytorch ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
+**Image Captioning:** An image captioning model with vanilla RNNs, LSTM and Transformer network. RNN and LSTM were implemented from scratch using  numpy including backpropagation. Attention, Multi-head attention and Transformer were implemented using Pytorch ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)). </div>
 
 <center><img src="images/cs231n.png"/></center>
 
@@ -84,9 +86,11 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/)
 
+<div style="text-align: justify"> 
+
 **Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/)).
 
-**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com)).
+**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com)). </div>
 
 <center><img src="images/nlp.png"/></center>
 
@@ -97,7 +101,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 Company: [Creative Software](https://www.creativesoftware.com/)
 ### Corrosion Detection using Semantic Segmentation
 
-Corrosion Detection for industrial environment using semantic segmentation. I used U-Net model for semantic segmentation. I completed writing the model, testing and all the training. Using a combination of focal loss and dice loss increased the accuracy significantly and using lot of augmentations reduced false positives.
+<div style="text-align: justify"> 
+
+Corrosion Detection for industrial environment using semantic segmentation. I used U-Net model for semantic segmentation. I completed writing the model, testing and all the training. Using a combination of focal loss and dice loss increased the accuracy significantly and using lot of augmentations reduced false positives. </div>
 
 <center><img src="images/unet.png"/></center>
 
@@ -114,11 +120,14 @@ Object detection model was trained using Detectron2 for idenitifying industrial 
 
 ---
 
+## Other Projects
 ### Garment ReConstruction - NeurIPS Challenge
+
+<div style="text-align: justify"> 
 
 3D Texture garment reconstruction using CLOTH3D dataset and SMPL body parameters. PyMesh, Open3d, Meshlab, MeshlabXML, Pytorch Geometric libraires were used.
 
-Only the data preprocessing part is done. The model is yet to be implemented.
+Only the data preprocessing part is done. The model is yet to be implemented. </div>
 
 **Subsampling points**
 <center><img src="images/subsampling.png"/></center>
@@ -128,6 +137,11 @@ Only the data preprocessing part is done. The model is yet to be implemented.
 
 **Custom maxpooling**
 <center><img src="images/maxpool.png"/></center>
+
+### FPGA processor for Matrix Multiplication
+
+<div style="text-align: justify"> The project included designing an Instruction Set Architecture (ISA) for FPGA processor for Matrix Multiplication and implementing with all the necessory components using Verilog HDL. A Python simulator was written to test the performance of the processor. We used Intel Quartus Prime, ModelSim and Xillinx to implement and simulate the processor. </div>
+
 
 ### Deep Surveilance System (DSS) - SLIOT Challenges
 
