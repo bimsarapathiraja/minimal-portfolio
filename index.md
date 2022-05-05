@@ -30,6 +30,9 @@ The final year project of the degree program and our project is based on dynamic
 ### 3D object Detection and Tracking
 
 <center><img src="images/centerpoint.png"/></center>
+
+<br>
+
 ### Trajectory Prediction
 
 Paper submitted to <a href='https://www.ieee-itsc2022.org/'> IEEE-ITSC </a> - **Class-Aware Attention for Multimodal Trajectory Prediction**
@@ -49,8 +52,10 @@ Paper submitted to <a href='https://www.ieee-itsc2022.org/'> IEEE-ITSC </a> - **
 
 **Quantitative results for nuScenes dataset**
 
-$MinADE_5$ - 1.67m
-$MinFDE_1$ - 8.43m
+MinADE_<sub>5</sub> - 1.67m
+MinFDE_<sub>1</sub> - 8.43m
+
+**Leaderbaord:** <a href='https://eval.ai/web/challenges/challenge-page/591/leaderboard/1659'> 12th rank </a> 
 
 ---
 
