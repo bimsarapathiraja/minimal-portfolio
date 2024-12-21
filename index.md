@@ -3,29 +3,23 @@
 
 ## PhD student - Arizona State University
 
-### Image editing for referring expressions - ongoing
+**Image editing for referring expressions - ongoing**
 
-### Dual Caption Preference Optimization for Diffusion Models - under review
-Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, Bimsara Pathiraja, Yezhou Yang, Chitta Baral
-
+**Dual Caption Preference Optimization for Diffusion Models - under review**
+Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, Bimsara Pathiraja, Yezhou Yang, Chitta Baral.
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://openreview.net/forum?id=w0lhe9prqH)
 
-### Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning - under review
-Authors - Venkatesh Mishra, Bimsara Pathiraja, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral
+**Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning - under review**
+Authors - Venkatesh Mishra*, Bimsara Pathiraja*, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral.
 
-### ExpressivityArena: Can LLMs Express Information Implicitly?
-Authors - Joshua Tint, Som Sagar, Aditya Taparia, Caleb Liu, Kelly Raines, Bimsara Pathiraja, Ransalu Senanayake
-v
-**Paper Accepted at NeurIPS 2024 Workshop on Behavioral Machine Learning!** 🎉🎉
-
+**ExpressivityArena: Can LLMs Express Information Implicitly?**
+Authors - Joshua Tint, Som Sagar, Aditya Taparia, Caleb Liu, Kelly Raines, Bimsara Pathiraja, Ransalu Senanayake.
+**Accepted at NeurIPS 2024 Workshop on Behavioral Machine Learning!** 🎉🎉
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2411.08010)
 
-### Fairness in Autonomous Driving: Towards Understanding Confounding Factors in Object Detection in Challenging Weather 
-
-Authors - Bimsara Pathiraja, Caleb Liu, Ransalu Senanayake
-
+**Fairness in Autonomous Driving: Towards Understanding Confounding Factors in Object Detection in Challenging Weather**
+Authors - Bimsara Pathiraja, Caleb Liu, Ransalu Senanayake.
 **Paper Accepted at CVPR 2024 Workshop on Data-Driven Autonomous Driving Simulation!** 🎉🎉
-
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2406.00219)
 
 
