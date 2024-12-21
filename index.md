@@ -10,7 +10,7 @@ Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, 
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://openreview.net/forum?id=w0lhe9prqH)
 
 **Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning - under review**
-Authors - Venkatesh Mishra*, Bimsara Pathiraja*, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral.
+Authors - Venkatesh Mishra\*, Bimsara Pathiraja\*, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral.
 
 **ExpressivityArena: Can LLMs Express Information Implicitly?**
 Authors - Joshua Tint, Som Sagar, Aditya Taparia, Caleb Liu, Kelly Raines, Bimsara Pathiraja, Ransalu Senanayake.
