@@ -25,8 +25,7 @@ Authors - Bimsara Pathiraja, Caleb Liu, Ransalu Senanayake.
 
 ## Research Assistant - Mohamed bin Zayed University of Artificial Intelligence - UAE
 
-### Topic - Network Calibration on Object Detection
-
+**Topic - Network Calibration on Object Detection**
 Authors - Bimsara Pathiraja, Malitha Gunawardhana, Muhammad Haris Khan
 ## 🎉 Exciting News! 🎉
 
