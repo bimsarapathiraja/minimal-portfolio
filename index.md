@@ -1,8 +1,56 @@
 # Portfolio
 ---
-## Work Experience
 
-### Machine Learning Engineer (Part-time remote) - <a href='https://www.promiseq.com/'>promiseQ</a>
+## PhD student - Arizona State University
+
+### Image editing for referring expressions - ongoing
+
+### Dual Caption Preference Optimization for Diffusion Models - under review
+Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, Bimsara Pathiraja, Yezhou Yang, Chitta Baral
+
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://openreview.net/forum?id=w0lhe9prqH)
+
+### Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning - under review
+Authors - Venkatesh Mishra, Bimsara Pathiraja, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral
+
+### ExpressivityArena: Can LLMs Express Information Implicitly?
+Authors - Joshua Tint, Som Sagar, Aditya Taparia, Caleb Liu, Kelly Raines, Bimsara Pathiraja, Ransalu Senanayake
+v
+**Paper Accepted at NeurIPS 2024 Workshop on Behavioral Machine Learning!** 🎉🎉
+
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2411.08010)
+
+### Fairness in Autonomous Driving: Towards Understanding Confounding Factors in Object Detection in Challenging Weather 
+
+Authors - Bimsara Pathiraja, Caleb Liu, Ransalu Senanayake
+
+**Paper Accepted at CVPR 2024 Workshop on Data-Driven Autonomous Driving Simulation!** 🎉🎉
+
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2406.00219)
+
+
+## Research Assistant - Mohamed bin Zayed University of Artificial Intelligence - UAE
+
+### Topic - Network Calibration on Object Detection
+
+Authors - Bimsara Pathiraja, Malitha Gunawardhana, Muhammad Haris Khan
+## 🎉 Exciting News! 🎉
+
+**Paper Accepted at CVPR 2023!**
+
+We are thrilled to announce that our paper has been accepted at CVPR 2023! This is a significant milestone for our research team, and we are incredibly proud of this achievement.
+
+**Title:** Multiclass Confidence and Localization Calibration for Object Detection
+
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2306.08271)
+
+
+**Abstract**
+
+<div style="text-align: justify"> Albeit achieving high predictive accuracy across many challenging computer vision problems, recent studies suggest that deep neural networks (DNNs) tend to make overconfident predictions, rendering them poorly calibrated. Most of the existing attempts for improving DNN calibration are limited to classification tasks and restricted to calibrating in-domain predictions. Surprisingly, very little to no attempts have been made in studying the calibration of object detection methods, which occupy a pivotal space in vision-based security-sensitive, and safety-critical applications. In this paper, we propose a new train-time technique for calibrating modern object detection methods. It is capable of jointly calibrating multiclass confidence and box localization by leveraging their predictive uncertainties. We perform extensive experiments on several in-domain and out-of-domain detection benchmarks. Results demonstrate that our proposed train-time calibration method consistently outperforms several baselines in reducing calibration error for both in-domain and out-of-domain predictions. Our code and models are available at https://github.com/bimsarapathiraja/MCCL. </div>
+<br>
+
+## Machine Learning Engineer (Part-time remote) - <a href='https://www.promiseq.com/'>promiseQ</a>
 
 promiseQ uses advanced real-time video analysis, object detection and tracking to reduce the cost and time wasted associated to false alarms.
 
