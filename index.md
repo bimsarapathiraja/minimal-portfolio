@@ -59,6 +59,9 @@ promiseQ uses advanced real-time video analysis, object detection and tracking t
 ## [Self-Driving-Car-Stage-II] Multi-Sensor based Dynamic Object Detection, Tracking, and Trajectory Prediction
 
 The final year project of the degree program and our project is based on dynamic object detection, tracking, trajectory prediction, signal light identification and data collection using LiDAR and camera. 
+
+Worked on trajectory prediction and signal light identification for autonomous driving. We proposed Class-aware attention for trajectory prediction where the future trajectory of the target agent depends on the vehicle classes of both target and surrounding agents. The model ranked 12th position in the nuScenes trajectory prediction leaderboard and 1st place which uses rasterized maps for the implementation. Introduced a camera and LiDAR sensor fusion method that can be used for low-resolution LiDAR while still maintaining accuracy.
+
 - Detection and tracking - <a href='https://arxiv.org/abs/2006.11275'> Centerpoint </a> 
   - detection MAP **62.8** (In the sensor fusion method: MVP + Centerpoint)
   - detection FPS **20** (In the fastest method: Centerpoint: Pointpillars )
