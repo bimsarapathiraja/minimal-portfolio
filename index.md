@@ -57,7 +57,7 @@ promiseQ uses advanced real-time video analysis, object detection and tracking t
 
 ---
 
-## [Self-Driving-Car-Stage-II] Multi-Sensor based Dynamic Object Detection, Tracking, and Trajectory Prediction
+## <a id="self-driving-car-project"></a> [Self-Driving-Car-Stage-II] Multi-Sensor based Dynamic Object Detection, Tracking, and Trajectory Prediction
 
 The final year project of the degree program and our project is based on dynamic object detection, tracking, trajectory prediction, signal light identification and data collection using LiDAR and camera. 
 
