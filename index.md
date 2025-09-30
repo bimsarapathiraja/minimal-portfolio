@@ -3,6 +3,7 @@
 
 ## PhD student - Arizona State University
 
+## 🎉 Exciting News! 🎉
 **RefEdit: A Benchmark and Method for Improving Instruction-based Image Editing Model on Referring Expressions**
 Authors - Bimsara Pathiraja*, Maitreya Patel*, Shivam Singh, Yezhou Yang, Chitta Baral.
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2506.03448)
@@ -10,11 +11,12 @@ Authors - Bimsara Pathiraja*, Maitreya Patel*, Shivam Singh, Yezhou Yang, Chitta
 
 **Dual Caption Preference Optimization for Diffusion Models**
 Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, Bimsara Pathiraja, Yezhou Yang, Chitta Baral.
-[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://openreview.net/forum?id=w0lhe9prqH)
-**Accepted at TMLR 2025 Findings** 🎉🎉
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2502.06023)
+**Accepted at TMLR 2025** 🎉🎉
 
 **Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning**
 Authors - Venkatesh Mishra\*, Bimsara Pathiraja\*, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral.
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2502.05675)
 **Accepted at NAACL 2025 Findings** 🎉🎉
 
 **ExpressivityArena: Can LLMs Express Information Implicitly?**
