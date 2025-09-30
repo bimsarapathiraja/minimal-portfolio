@@ -4,7 +4,7 @@
 ## PhD student - Arizona State University
 
 **RefEdit: A Benchmark and Method for Improving Instruction-based Image Editing Model on Referring Expressions**
-Authors - Bimsara Pathiraja, Maitreya Patel, Shivam Singh, Yezhou Yang, Chitta Baral.
+Authors - Bimsara Pathiraja*, Maitreya Patel*, Shivam Singh, Yezhou Yang, Chitta Baral.
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2506.03448)
 **Accepted at ICCV 2025** 🎉🎉
 
