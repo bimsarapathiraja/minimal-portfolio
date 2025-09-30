@@ -3,11 +3,15 @@
 
 ## PhD student - Arizona State University
 
-**Image editing for referring expressions - ongoing**
+**RefEdit: A Benchmark and Method for Improving Instruction-based Image Editing Model on Referring Expressions**
+Authors - Bimsara Pathiraja, Maitreya Patel, Shivam Singh, Yezhou Yang, Chitta Baral.
+[![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://arxiv.org/abs/2506.03448)
+**Accepted at ICCV 2025** 🎉🎉
 
-**Dual Caption Preference Optimization for Diffusion Models - under review**
+**Dual Caption Preference Optimization for Diffusion Models**
 Authors - Amir Saeidi, Yiran Lawrence Luo, Agneet Chatterjee, Shamanthak Hegde, Bimsara Pathiraja, Yezhou Yang, Chitta Baral.
 [![Open Research Poster](https://img.shields.io/badge/arXiv-Open%20Research%20Paper-red?logo=adobe-acrobat-reader&logoColor=white)](https://openreview.net/forum?id=w0lhe9prqH)
+**Accepted at TMLR 2025 Findings** 🎉🎉
 
 **Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning**
 Authors - Venkatesh Mishra\*, Bimsara Pathiraja\*, Mihir Parmar, Sat Chidananda, Jayanth Srinivasa, Gaowen Liu, Ali Payani, Chitta Baral.
